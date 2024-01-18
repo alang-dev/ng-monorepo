@@ -62,19 +62,21 @@
   }
 </style>
 
+<header>
+  <div>
+    <h1>Kien Alang</h1>
+    <p>Software Engineer</p>
+  </div>
+  <nav>
+    <ul>
+      <li><a routerLink="/stock-picks" routerLinkActive="active" ariaCurrentWhenActive="page">Stock Picks</a></li>
+      <li><a routerLink="/mutual-funds" routerLinkActive="active" ariaCurrentWhenActive="page">Mutual Funds</a></li>
+    </ul>
+  </nav>
+</header>
+
 <main class="main">
-  <div class="content">
-    <div>
-      <h1>Kien Alang</h1>
-      <p>Software Engineer</p>
-    </div>
-    <nav>
-      <ul>
-        <li><a routerLink="/stock-picks" routerLinkActive="active" ariaCurrentWhenActive="page">Stock Picks</a></li>
-        <li><a routerLink="/mutual-funds" routerLinkActive="active" ariaCurrentWhenActive="page">Mutual Funds</a></li>
-      </ul>
-    </nav>
-    <!-- The routed views render in the <router-outlet>-->
+  <div>
     <router-outlet></router-outlet>
   </div>
 </main>
@@ -86,6 +88,3 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
-
-<router-outlet></router-outlet>
