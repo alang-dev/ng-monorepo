@@ -30,6 +30,7 @@
               "projects/admin/src/assets"
             ],
             "styles": [
+              "node_modules/app-lib/lib/mui/styles/theme.scss",
               "projects/admin/src/styles.scss"
             ],
             "scripts": []
@@ -124,6 +125,7 @@
               "projects/customer/src/assets"
             ],
             "styles": [
+              "node_modules/app-lib/lib/mui/styles/theme.scss",
               "projects/customer/src/styles.scss"
             ],
             "scripts": []

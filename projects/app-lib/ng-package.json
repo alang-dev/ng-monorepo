@@ -1,6 +1,9 @@
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
   "dest": "../../dist/app-lib",
+  "assets": [
+    { "input": "src/lib/mui/styles", "glob": "**/*.scss", "output": "lib/mui/styles" }
+  ],
   "lib": {
     "entryFile": "src/public-api.ts"
   }
